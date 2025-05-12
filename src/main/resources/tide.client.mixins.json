@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "me.xoq.tide.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BlockItemMixin",
+    "ChatInputSuggesterMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "InGameHudMixin",
+    "KeyBindingAccessor",
+    "KeyboardMixin",
+    "MinecraftClientMixin",
+    "SoundSystemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

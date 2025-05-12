@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Gradle wrapper
+.gradle-wrapper.jar
+
+# Fabric/Loom
+run/
+*.launch
+*.cache
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws

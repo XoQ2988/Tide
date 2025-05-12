@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tide",
+  "name": "Tide",
+  "version": "${version}",
+  "entrypoints": {
+    "client": [
+      "me.xoq.tide.TideClient"
+    ]
+  },
+  "mixins": [
+    "tide.client.mixins.json"
+  ],
+  "depends": {
+    "java": ">=21",
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=${loader_version}"
+  }
+}
