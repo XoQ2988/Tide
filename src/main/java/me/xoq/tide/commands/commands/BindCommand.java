@@ -21,7 +21,7 @@ public class BindCommand extends Command {
 
     @Override
     public void build(LiteralArgumentBuilder<CommandSource> builder) {
-        builder
+            builder
                 .then(argument("module", StringArgumentType.word())
                         .suggests(MODULE_SUGGESTIONS)
                         .executes(this::execute)

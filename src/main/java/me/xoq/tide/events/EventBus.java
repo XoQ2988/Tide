@@ -29,7 +29,7 @@ public class EventBus {
     // Register all @EventHandler methods on the given listener object
     public void register(Object listener) {
         for (Method method : listener.getClass().getDeclaredMethods()) {
-            if (!method.isAnnotationPresent(EventHandler.class)) continue;
+            if (!method.isAnnotationPresent(me.xoq.tide.events.EventHandler.class)) continue;
 
             if (method.getParameterCount() != 1) {
                 TideClient.LOG.warn(
